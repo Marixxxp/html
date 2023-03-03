@@ -1,0 +1,86 @@
+*{
+    padding: 0; /*define para o navegador, que o espaçamento é igual a zero*/
+    margin: 0; /*define o valor 0 como margem para a página*/
+    box-sizing: border-box; /*o espaçamento d padding conta para dentro da caixa*/
+    font-family: Arial, Helvetica, sans-serif; /*define o tipo de fonte que será utilizada na página*/
+}
+header{ /*configura o cabeçalho da página*/
+    background-color: #fe8585; /*Altera a cor de fundo da área do cabeçalho*/
+    color: rgb(255, 236, 236);
+    padding: 25px; /*espaçamento entre o texto e as margens*/
+    text-align: center; /*alinhamento do texto(título)*/
+    border-bottom: rgb(183, 79, 79) 3px solid; /*adiciona borda inferior (nesse caso 3px de espessura)*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Gride de produtos*/
+.container {
+background-color: rgb(252, 237, 212); /*Muda a cor do fundo da seção container*/
+min-height: 60vh; /*altura mínima da seção ser 60% da tela */
+padding: 50px; /*espaçamento de 50px nas margens*/
+
+}
+
+.product-container {
+    max-width: 1200px; /*largura máxima da divisão Card*/
+    margin: 0 auto; /*Margem 0 na altura e centralizar o conteúdo na horizontal*/
+}
+.card {
+    width: 31%; /*largura do card em 31% do tamanho definido no product-container*/
+    display: inline-block; /*posiciona os cards em linha*/
+}
+
+.product-image {
+    height: 300px; /*altura da imagem*/ 
+    width: 100%; /*ocupar 100% do espaço disponível no card*/
+    background-position: center; /*deixou a imagem centralizada*/
+    background-size: cover; /*diminuiu o zoom*/
+}
+#img-1 {
+    background-image: url(../imagens5/tenis1.jpg);
+}
+#img-2 {
+    background-image: url(../imagens5/tenis2.jpg);
+}
+#img-3 {
+    background-image: url(../imagens5/tenis3.jpg);
+}
+#img-4 {
+    background-image: url(../imagens5/tenis4.jpg);
+}
+#img-5 {
+    background-image: url(../imagens5/tenis5.jpg);
+}
+#img-6 {
+    background-image: url(../imagens5/tenis6.jpg);
+}
+h3{
+    margin-bottom: 10px;
+    color: rgb(168, 12, 41);
+    font-size: 24px;
+}
+.card p {
+    margin-bottom: 10px;
+}
+.btn {
+    display: block; /*exibir o conteúdo no formato de um bloco*/
+    width: 100%; /*ocupar 100% do espaço disponivel no card*/
+    text-align: center; /*alinhar o texto no centro do espaço indicado  pelo comando width*/
+    text-transform: uppercase; /*Exibe o texto em letra maiúscula*/
+    text-decoration: none; /*Remove o siblinhado do texto */
+    background-color: rgb(245, 156, 156); /*Altera a cor do fundo do  display block (botão)*/
+    color: aliceblue; /*Muda a cor da fonte do texto*/
+    padding: 15px; /*Espaçamendo de 15px ao redor do display block*/
+    margin-bottom: 10px; /*Adiciona uma margem abaixo do botão de 10px*/
+    border-radius: 10px; /*Arredonda os cantos do botão*/
+}
+
+.btn:hover { /*Altera o comportamento do botão quando o cursor do mouse estiver sobre ele*/
+    background-color: #fc6464;
+}
+
+footer { /*altera as configurações do rodapé da página*/
+    background-color:#fe8585; /*Altera a cor do fundo do rodapé*/
+    text-align: center; /*Centraliza o texto do rodapé*/
+    padding: 30px; /*Adiciona um espaçamento ao redor dp rodapé*/
+    color: aliceblue;
+}
