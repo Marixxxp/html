@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Estilo do body*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+
+.cabecalho {
+    padding: 160px;
+    text-align: center;
+    background-image: url(../imagemmaterial/banner.png);
+    background-size: cover;
+    color: black;
+    background-position: center;
+    
+}
+
+/*Estilo de barra de navegação*/
+
+.barra_nav{
+    display: flex;
+    background-color: #5e8bde5e;
+}
+
+/*Estilo des links da barra de navegação*/
+
+.barra_nav a {
+    color: black;
+    padding: 14px 30px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Trocar a cor de fundo quando o cersor estiver sobre o link*/
+
+.barra_nav a:hover {
+    background-color: white;
+    color: #5e8bdec9;
+}
+
+/*Configurar a div coluna*/
+.coluna {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Criar 2 colunas desiguais (30% e 70%)*/
+
+
+.principal{
+    flex: 30%;
+    background-color: rgba(237, 245, 253, 0.783);
+    padding: 20px;
+}
+
+.lateraldir{
+    flex: 70%;
+    background-color: rgba(237, 245, 253, 0.783);
+    padding: 110px;
+    
+}
+
+.btn {
+    display: block; /*exibir o conteúdo no formato de um bloco*/
+    width: 100%; /*ocupar 100% do espaço disponivel no card*/
+    text-align: center; /*alinhar o texto no centro do espaço indicado  pelo comando width*/
+    text-transform: uppercase; /*Exibe o texto em letra maiúscula*/
+    text-decoration: none; /*Remove o siblinhado do texto */
+    background-color: #5e8bde5e; /*Altera a cor do fundo do  display block (botão)*/
+    color: white; /*Muda a cor da fonte do texto*/
+    padding: 15px; /*Espaçamendo de 15px ao redor do display block*/
+    margin-bottom: 10px; /*Adiciona uma margem abaixo do botão de 10px*/
+    border-radius: 10px; /*Arredonda os cantos do botão*/
+}
+
+.btn:hover { /*Altera o comportamento do botão quando o cursor do mouse estiver sobre ele*/
+    background-color: white;
+    color: rgb(148, 168, 255);
+}
+
+/*Imagens Falsas apenas para marcação de espaço*/
+
+
+
+
+.descomplica {
+    background-image: url(../imagemmaterial/descomplica.jpg);
+    width: 60%;
+    padding: 10px;
+    height: 150px;
+    margin: 15px;
+    margin-top: 5px;
+    margin-left: 50px;
+    background-position: center; /*deixou a imagem centralizada*/
+    background-size: cover; /*diminuiu o zoom*/
+    border-radius: 100%;
+
+}
+
+.giscomgiz {
+    background-image: url(../imagemmaterial/gis_com_giz.jpg);
+    width: 60%;
+    padding: 10px;
+    height: 150px;
+    margin: 15px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-position: center; /*deixou a imagem centralizada*/
+    background-size: cover; /*diminuiu o zoom*/
+    border-radius: 100%;
+}
+
+
+.cienciatododia {
+    background-image: url(../imagemmaterial/ciencia_todo_dia.jpg);
+    width: 60%;
+    padding: 10px;
+    height: 150px;
+    margin: 15px;
+    margin-top: 33px;
+    margin-left: 50px;
+    background-position: center; /*deixou a imagem centralizada*/
+    background-size: cover; /*diminuiu o zoom*/
+    border-radius: 100%;
+}
+
+
+.seliga {
+    background-image: url(../imagemmaterial/se_liga.jpg);
+    width: 60%;
+    padding: 10px;
+    height: 150px;
+    margin: 15px;
+    margin-top: 35px;
+    margin-left: 50px;
+    background-position: center; /*deixou a imagem centralizada*/
+    background-size: cover; /*diminuiu o zoom*/
+    border-radius: 100%;
+}
+
+
+.kennedyramos {
+    background-image: url(../imagemmaterial/kennedy_ramos.jpg);
+    width: 60%;
+    padding: 10px;
+    height: 150px;
+    margin: 15px;
+    margin-top: 35px;
+    margin-left: 50px;
+    background-position: center; /*deixou a imagem centralizada*/
+    background-size: cover; /*diminuiu o zoom*/
+    border-radius: 100%;
+}
+
+
+.paulojubilut {
+    background-image: url(../imagemmaterial/paulo_jubilut.jpg);
+    width: 60%;
+    padding: 10px;
+    height: 150px;
+    margin: 15px;
+    margin-top: 30px;
+    margin-left: 50px;
+    background-position: center; /*deixou a imagem centralizada*/
+    background-size: cover; /*diminuiu o zoom*/
+    border-radius: 100%;
+}
+
+
+.professorboaro {
+    background-image: url(../imagemmaterial/professor_boaro.jpg);
+    width: 60%;
+    padding: 10px;
+    height: 150px;
+    margin: 15px;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-position: center; /*deixou a imagem centralizada*/
+    background-size: cover; /*diminuiu o zoom*/
+    border-radius: 100%;
+}
+
+
+
+.deboraaladim {
+    background-image: url(../imagemmaterial/debora_aladim.jpg);
+    width: 60%;
+    padding: 10px;
+    height: 150px;
+    margin: 15px;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-position: center; /*deixou a imagem centralizada*/
+    background-size: cover; /*diminuiu o zoom*/
+    border-radius: 100%;
+}
+
+
+.rodape {
+    max-height: fit-content;
+    padding: 8px;
+    text-align: center;
+    background-color: #5e8bde5e;
+}
+
+@media screen and (max-width: 500px) {
+    .coluna, .barra_nav {
+        flex-direction: column;
+    }
+    .cabecalho {
+        background-image: url(../imagemmaterial/bannercelular.png);
+        padding: 100px;
+        background-size: cov;
+        color: #434343;
+    }
+   
+}
