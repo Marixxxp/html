@@ -62,7 +62,7 @@ body {
 .lateraldir{
     flex: 70%;
     background-color: rgba(237, 245, 253, 0.783);
-    padding: 80px;
+    padding: 110px;
     
 }
 
@@ -93,7 +93,7 @@ body {
     background-image: url(../imagemmaterial/descomplica.jpg);
     width: 60%;
     padding: 10px;
-    height: 170px;
+    height: 150px;
     margin: 15px;
     margin-top: 5px;
     margin-left: 50px;
@@ -107,9 +107,9 @@ body {
     background-image: url(../imagemmaterial/gis_com_giz.jpg);
     width: 60%;
     padding: 10px;
-    height: 170px;
+    height: 150px;
     margin: 15px;
-    margin-top: 5px;
+    margin-top: 30px;
     margin-left: 50px;
     background-position: center; /*deixou a imagem centralizada*/
     background-size: cover; /*diminuiu o zoom*/
@@ -121,9 +121,9 @@ body {
     background-image: url(../imagemmaterial/ciencia_todo_dia.jpg);
     width: 60%;
     padding: 10px;
-    height: 170px;
+    height: 150px;
     margin: 15px;
-    margin-top: 10px;
+    margin-top: 33px;
     margin-left: 50px;
     background-position: center; /*deixou a imagem centralizada*/
     background-size: cover; /*diminuiu o zoom*/
@@ -135,9 +135,9 @@ body {
     background-image: url(../imagemmaterial/se_liga.jpg);
     width: 60%;
     padding: 10px;
-    height: 170px;
+    height: 150px;
     margin: 15px;
-    margin-top: 10px;
+    margin-top: 35px;
     margin-left: 50px;
     background-position: center; /*deixou a imagem centralizada*/
     background-size: cover; /*diminuiu o zoom*/
@@ -149,9 +149,9 @@ body {
     background-image: url(../imagemmaterial/kennedy_ramos.jpg);
     width: 60%;
     padding: 10px;
-    height: 170px;
+    height: 150px;
     margin: 15px;
-    margin-top: 10px;
+    margin-top: 35px;
     margin-left: 50px;
     background-position: center; /*deixou a imagem centralizada*/
     background-size: cover; /*diminuiu o zoom*/
@@ -163,9 +163,9 @@ body {
     background-image: url(../imagemmaterial/paulo_jubilut.jpg);
     width: 60%;
     padding: 10px;
-    height: 170px;
+    height: 150px;
     margin: 15px;
-    margin-top: 5px;
+    margin-top: 30px;
     margin-left: 50px;
     background-position: center; /*deixou a imagem centralizada*/
     background-size: cover; /*diminuiu o zoom*/
@@ -177,9 +177,9 @@ body {
     background-image: url(../imagemmaterial/professor_boaro.jpg);
     width: 60%;
     padding: 10px;
-    height: 170px;
+    height: 150px;
     margin: 15px;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 50px;
     background-position: center; /*deixou a imagem centralizada*/
     background-size: cover; /*diminuiu o zoom*/
@@ -192,9 +192,9 @@ body {
     background-image: url(../imagemmaterial/debora_aladim.jpg);
     width: 60%;
     padding: 10px;
-    height: 170px;
+    height: 150px;
     margin: 15px;
-    margin-top: 25px;
+    margin-top: 40px;
     margin-left: 50px;
     background-position: center; /*deixou a imagem centralizada*/
     background-size: cover; /*diminuiu o zoom*/

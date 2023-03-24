@@ -95,7 +95,7 @@ body {
 .gato {
     background-image: url(../imagemsom/gato.png);
     width: 80%;
-    padding: 10px;
+    padding: 5px;
     height: 150px;
     margin: 20px;
     background-position: center; /*deixou a imagem centralizada*/
@@ -107,8 +107,9 @@ body {
     background-image: url(../imagemsom/time_of_study.jpg);
     width: 100%;
     padding: 10px;
-    height: 150px;
+    height: 120px;
     margin: 20px;
+    margin-top: 50px;
     background-position: center; /*deixou a imagem centralizada*/
     background-size: cover; /*diminuiu o zoom*/
     border-radius: 100%;
@@ -118,8 +119,9 @@ body {
     background-image: url(../imagemsom/kpop.jfif);
     width: 100%;
     padding: 10px;
-    height: 150px;
+    height: 120px;
     margin: 20px;
+    margin-top: 60px;
     background-position: center; /*deixou a imagem centralizada*/
     background-size: cover; /*diminuiu o zoom*/
     border-radius: 100%;
@@ -130,8 +132,9 @@ body {
     background-image: url(../imagemsom/vish.jfif);
     width: 100%;
     padding: 10px;
-    height: 150px;
+    height: 120px;
     margin: 20px;
+    margin-top: 55px;
     background-position: center; /*deixou a imagem centralizada*/
     background-size: cover; /*diminuiu o zoom*/
     border-radius: 100%;
@@ -142,8 +145,9 @@ body {
     background-image: url(../imagemsom/lofi.jfif);
     width: 100%;
     padding: 10px;
-    height: 150px;
+    height: 120px;
     margin: 20px;
+    margin-top: 60px;
     background-position: center; /*deixou a imagem centralizada*/
     background-size: cover; /*diminuiu o zoom*/
     border-radius: 100%;
@@ -154,8 +158,9 @@ body {
     background-image: url(../imagemsom/fone.jpg);
     width: 100%;
     padding: 10px;
-    height: 150px;
+    height: 120px;
     margin: 20px;
+    margin-top: 50px;
     background-position: center; /*deixou a imagem centralizada*/
     background-size: cover; /*diminuiu o zoom*/
     border-radius: 100%;
@@ -182,5 +187,61 @@ body {
         background-size: cov;
         color: #434343;
     }
-   
+    .time_of_study {
+        background-image: url(../imagemsom/time_of_study.jpg);
+        width: 45%;
+        padding: 10px;
+        height: 150px;
+        margin-left: 100px;
+        background-position: center; /*deixou a imagem centralizada*/
+        background-size: cover; /*diminuiu o zoom*/
+        border-radius: 100%;
+    }
+    
+    .kpop {
+        background-image: url(../imagemsom/kpop.jfif);
+        width: 45%;
+        padding: 10px;
+        height: 150px;
+        margin-left: 100px;
+        background-position: center; /*deixou a imagem centralizada*/
+        background-size: cover; /*diminuiu o zoom*/
+        border-radius: 100%;
+    }
+    
+    
+    .pomodoro_playlist {
+        background-image: url(../imagemsom/vish.jfif);
+        width: 45%;
+        padding: 10px;
+        height: 150px;
+        margin-left: 100px;
+        background-position: center; /*deixou a imagem centralizada*/
+        background-size: cover; /*diminuiu o zoom*/
+        border-radius: 100%;
+    }
+    
+    
+    .lofi_playlist {
+        background-image: url(../imagemsom/lofi.jfif);
+        width: 45%;
+        padding: 10px;
+        height: 150px;
+        margin-left: 100px;
+        background-position: center; /*deixou a imagem centralizada*/
+        background-size: cover; /*diminuiu o zoom*/
+        border-radius: 100%;
+    }
+    
+    
+    .site_som {
+        background-image: url(../imagemsom/fone.jpg);
+        width: 45%;
+        padding: 10px;
+        height: 150px;
+        margin-left: 100px;
+        background-position: center; /*deixou a imagem centralizada*/
+        background-size: cover; /*diminuiu o zoom*/
+        border-radius: 100%;
+    }
 }
